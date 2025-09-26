@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/kidrocket-designer/static/js/main.0f030127.js",
+    "main.js": "/kidrocket-designer/static/js/main.e7c87f70.js",
     "index.html": "/kidrocket-designer/index.html",
-    "main.0f030127.js.map": "/kidrocket-designer/static/js/main.0f030127.js.map"
+    "main.e7c87f70.js.map": "/kidrocket-designer/static/js/main.e7c87f70.js.map"
   },
   "entrypoints": [
-    "static/js/main.0f030127.js"
+    "static/js/main.e7c87f70.js"
   ]
 }
