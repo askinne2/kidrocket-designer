@@ -5,6 +5,7 @@
  */
 
 import axios from 'axios';
+import { API_BASE_URL } from '../config/environment';
 
 // Types (shared with backend)
 export interface RocketConfig {
@@ -164,7 +165,7 @@ export interface PerformanceEstimate {
 }
 
 // API Client
-const API_BASE_URL = process.env.REACT_APP_API_URL || '/api/v1';
+// API_BASE_URL now imported from environment config
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
