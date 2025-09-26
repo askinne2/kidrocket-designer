@@ -9,7 +9,7 @@ const config = {
   },
   production: {
     // Update this with your Render.com backend URL after deployment
-    API_BASE_URL: 'https://your-app-name.onrender.com',
+    API_BASE_URL: 'https://kidrocket-designer-api.onrender.com',
   }
 };
 
