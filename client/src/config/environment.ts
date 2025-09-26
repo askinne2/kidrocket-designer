@@ -17,8 +17,10 @@ const environment = process.env.NODE_ENV || 'development';
 
 export const API_BASE_URL = config[environment as keyof typeof config].API_BASE_URL;
 
-export default {
+const environmentConfig = {
   API_BASE_URL,
   isDevelopment: environment === 'development',
   isProduction: environment === 'production',
 };
+
+export default environmentConfig;
