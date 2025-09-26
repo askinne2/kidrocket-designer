@@ -2,12 +2,12 @@
   "name": "kidrocket-designer",
   "version": "1.0.0",
   "description": "Educational rocket design and simulation platform for kids",
-  "main": "dist/server.js",
+  "main": "server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "build": "npx tsc src/production-server.ts --outDir dist --target ES2020 --module commonjs --esModuleInterop --skipLibCheck && npm run build:client",
+    "build": "npm run build:client",
     "build:client": "cd client && npm run build",
-    "start": "node dist/production-server.js",
+    "start": "node server.js",
     "test": "jest",
     "test:watch": "jest --watch",
     "lint": "eslint src/**/*.ts",
@@ -53,7 +53,7 @@
     "prettier": "^3.0.0",
     "ts-jest": "^29.1.1",
     "tsx": "^3.12.7",
-    "typescript": "^5.1.6"
+    "typescript": "^5.9.2"
   },
   "engines": {
     "node": ">=18.0.0"
