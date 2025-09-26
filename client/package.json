@@ -22,7 +22,7 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.7.1"
   },
-  "homepage": "https://YOUR_USERNAME.github.io/kidrocket-designer",
+  "homepage": "https://askinne2.github.io/kidrocket-designer",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
